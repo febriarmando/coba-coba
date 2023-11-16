@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>febri.com</title>
+</head>
+<body>
+    <div align="center">
+    <h1>KANTOR JNT </h1>
+    <h2>berjalan di bidang pengiriman jasa cepat dan tepat</h2>
+  <p1><img src="c:\Users\febri\Downloads\Logo_J&T_Merah_Square.jpg" alt="J&T EXPRESS" width="150px" height="150px"></p1>
+    
+  <p>kami menyediakan layanan free peckup </p>
+  <p>silakan hubuingi kontak kami di bawa</p>
+  <a href="https://wa.me/081239018456" target="_blank">Hubungi via WhatsApp</a>
+</div>
+
+  <h2>Menu</h2>
+  <ul>
+    <li>Nasi Goreng</li>
+    <li>Mie Goreng</li>
+    <li>Kwetiau Goreng</li>
+    <li>Nasi Campur</li>
+    <li>Soto Ayam</li>
+    <li>Es Teh</li>
+    <li>Es Jeruk</li>
+    <li>Es Kopi</li>
+  </ul>
+  <h3>fasilitas</h3>
+  <p>tempat parkir yang luas </p>
+  <p>pemandangan yang indah</p>
+  <p>halaman yang bersih</p>
+  <p>tematnya ramah dan aman untuk bersantai santai</p>
+
+  <h4>Lokasi</h4>
+  <p>Jl. tukad pancoran gg lestari No. 12, Denpasar, Indonesia</p>
+
+  <h5>Jam Buka</h5>
+  <p>Senin - Sabtu: 07.00 - 22.00</p>
+  <p>Minggu: tutup</p>
+  <p3>No.hp: 081239018456</p3>
+  <p><a href="febriarmando29@gmail.com">Kirim email ke saya</a></p>
+  <form action="mailto:febriarmando29@gmail.com" method="post" enctype="multipart/form-data">
+    <input type="email" name="to" placeholder="Alamat email tujuan">
+    <input type="text" name="subject" placeholder="Subjek">
+    <textarea name="message" placeholder="Isi email"></textarea>
+    <input type="file" name="file">
+    <input type="submit" value="Kirim">
+  </form>
+<h6>Alamat lengkap</h6>
+  <html lang="id">
+  <head>
+    <title>Tambahkan Peta ke HTML</title>
+  
+  </head>
+  <body>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.0252307653227!2d115.22652137370162!3d-8.689150188499623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd240fdf310d3bb%3A0x118c0c5a3a7e35a4!2sGg.%20II%20X%20Lestari%2C%20Dauh%20Puri%20Klod%2C%20Kec.%20Denpasar%20Bar.%2C%20Kota%20Denpasar%2C%20Bali%2080225!5e0!3m2!1sid!2sid!4v1695823142484!5m2!1sid!2sid" width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+    <div id="map"></div>
+    <script>
+      const mapDiv = document.getElementById("map");
+      const map = new google.maps.Map(mapDiv, {
+        zoom: 10,
+        center: { lat: 0, lng: 0 },
+      });
+  
+      const marker = new google.maps.Marker({
+        position: { lat: 0, lng: 0 },
+      });
+      map.addMarker(marker);
+    </script>
+  
+  </body>
+  </html>
+  <html lang="id">
+<head>
+  <title>Background Warna</title>
+  <style>
+    body {
+      background-color: #f0b9b9;
+    }
+  </style>
+</head>
+<body>
+  ...
+</body>
+</html>
+<style>
+    p1 {
+      animation: muncul 2s ease-in-out;
+    }
+  
+    @keyframes muncul {
+      from {
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+    }
+  </style>
+
+  
